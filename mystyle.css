@@ -1,7 +1,10 @@
+.dark{
+    background-color: black;
+}
 .menu{
     margin-left: 100px;
     margin-top: 20px;
-    color:black;
+    color:rgb(245, 245, 245);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline-block;
@@ -13,16 +16,18 @@
 }
 
 .title{
+    color: rgb(245, 245, 245);
     margin-left: 350px;
     width: 800px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 45px;
     margin-top: 100px;
     display: block;
+    
 }
 
 .under_title{
-    color: wheat;
+    color: rgb(185, 185, 252);
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     margin-top: 30px;
@@ -38,6 +43,7 @@
     width: 500px;
     display: block;
     margin: 0 auto;
+    border: 3px solid rgb(223, 220, 245);
 }
 
 .descript{
@@ -45,19 +51,19 @@
     display: block;
     margin: 50px auto;
     font-family: 'Times New Roman', Times, serif;
-    color: beige;
+    color: rgb(223, 220, 245);
     font-size: 15px;
 }
 
 header {
     position: sticky;
     top: 0;
-    background-color: burlywood;
+    background-color: rgb(135, 139, 222);
 }
 
 .subscribe{
     padding: 10px;
-    background-color: burlywood;
+    background-color: rgb(135, 151, 222);
 }
 
 .subscribe input{
@@ -66,7 +72,7 @@ header {
 }
 
 .subscribe button{
-    background-color: beige;
+    background-color: rgb(220, 221, 245);
     border: none;
     padding: 5px 10px;
     color: black;
@@ -75,8 +81,12 @@ header {
 
 .review{
     margin-top: 50px;
-    border: 1px solid black;
+    border: 1px solid ghostwhite;
     padding: 20px;
+}
+
+.rtitle{
+    color: rgb(245, 245, 245);
 }
 
 .rating{
@@ -85,13 +95,24 @@ header {
 }
 
 .star{
-    color: orange;
+    color: rgb(0, 13, 255);
 }
 
 input[type="text"], select, textarea{
     width: 100%;
     padding: 12px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     margin-top: 10px;
     margin-bottom: 20px;
+    background-color: rgb(107, 108, 135);
+    color: black;
+}
+
+.container{
+    color: darkgray;
+}
+
+::placeholder{
+    color: ghostwhite;
+    opacity: 0.5;
 }
